@@ -25,7 +25,7 @@
             <li>
                 <?php echo "$movie->title - $movie->year - $movie->director <br>";
                     foreach ($movie->genres as $genre) {
-                        echo "$genre ";
+                        echo "$genre    ";
                     }
                 echo "<br> $movie->synopsis" ;?>
             </li>
